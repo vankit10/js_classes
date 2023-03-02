@@ -1,0 +1,80 @@
+refer to file demo.js in programming section
+folder 30-01-2023
+
+                                Data types in javascript
+
+String - it is nothing but its just that 0 or more charaacter enclosed between " " , ' '.
+
+typeof operator is used to check the data type of any value
+
+number - number is just a  number . number have restrictions to some limit and it has onl 64 bits.ex - 2, 2.0 , 3.6 , -3.6 
+
+boolean - it is just two values that is true or false 
+
+bigint - used to represent big number i .e  6546545165465465456456211111111111154654216545464
+undefined-the data which have no value of data typoe
+
+
+
+
+
+
+
+
+
+Containers to hold data can beof 3 types in javascript
+		VAR
+		LET
+		CONST
+
+
+VAR - Syntax -   --- 	Var Container_name
+                Var a;
+				Var firstname;
+				Var first_name
+				Var first name    spaces in variable name are not allowed
+
+
+
+LET --- 
+		Syntax ---	Let Container_name
+                Let a;
+				Let firstname;
+				Let first_name
+				Let first name    spaces in variable name are not allowed
+
+
+
+CONST --- 
+		Syntax ---	const Container_name
+                const a;
+				const firstname;
+				const first_name
+				const first name    spaces in variable name are not allowed
+
+DIFFERENCE b/w VAR , LET, CONST
+
+•	Var, let, const are the containers for storing data
+•	You can also call it a variable
+
+Re-declare
+Re-Assign
+
+Containers of type Var are re declared as well as re assign
+	Var x;	declaring variable
+	Var x;	re declaring variable
+	X=20;	assigning value
+	X=21;	re assigning value
+
+
+Containers of type Let can be re assign but not re declare
+	let x;	declaring variable
+	let x;	produce error
+	X=20;	assigning value
+	X=21;	re assigning value
+
+Containers of type const can not be re assign as well as re declare
+	let x;	declaring variable
+	let x;	produce error
+	X=20;	assigning value
+	X=21;	produce error

@@ -1,0 +1,62 @@
+ refer to folder 13-02-2023
+data structure are just containers to keep our data, 
+will also helpus to organise our data.
+
+Array- as we already learnt abt this.
+
+data type
+Set:- Collection of unique elements
+ex-(2,3,4) ---> Set
+    (22,22,21)---> not a set as in this there was a duplicate value
+    (2,'20','g')---> set
+
+
+
+    create a set
+    const X = new Set()
+    x.add(2);  ---> inserting data into set
+    x.add(3);
+    index is no there with set
+
+    var arr=[2,3,5,4,5,6,1,5,4,3]
+    var x=new set(arr)---> allt the duplicate will be removed from var X;
+    x=[2,3,5,4,6,1]
+    x.add(15)
+    x.add(15) // this line will not produce error but also it should not be ADDED in the set
+
+
+
+    Methods on set - >
+    add()---> it will add an element to the set
+     var arr=[2,3,5,4,5,6,1,5,4,3]
+     var x=new set(arr)
+     x=[2,3,5,4,6,1]
+    x.add(15)
+
+
+forEach method->
+    var arr=[2,3,5,4,1,2]
+    var x=new Set(arr)
+    x.forEach(doJob)
+
+    funtion doJob(value,index,x){
+        console.log(value,index,x)
+    }
+
+
+        refer to folder 14-02-2023
+
+    delete()---> used to delete an element from the Set
+                it will return true if no is found and deleted.
+                else it will return false.
+
+x.delete(2);
+
+has()--> used to check whether the number is present in set or not.
+x.has(3);
+
+clear()---> remove all element from the set.
+x.clear();
+
+size- return the size of set.
+

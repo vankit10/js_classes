@@ -1,0 +1,244 @@
+                                            refer to folder 31-01-2023
+
+
+
+operator in javascript
+
+    let x = 30              '=' is assignment operator
+    let y = 30 + 40         '+' addition operator
+    let z = 60 - 40         '-' subtraction operator
+    let a = 60 * 40         '*' multiplication operator
+    let b = 60 / 40         '/' division operator
+    let c = 60 % 40       '%' Modulus operator give remainder    ex 20 will be output
+    let d = 60**2           '**' power/exponential operator  ex- 60*60
+
+    increment operator
+    a=10
+    a++;            i.e. a=a+1;
+
+    decrement operator
+    m=20;
+    m--;            i.e. m=m-1;
+
+    increment and decrement operatoronly used with 'var' and 'let' but not with const keyword.
+    ex-
+     var a=10;a++;
+     let b=50;b--;
+     const c=50;c--;        it will produce error
+
+    increment and decremet operatornot work with const keyword or constant values .it will produce error.
+     
+     const c=20;
+     c++;   
+     c--;           const c is constant so value of c is also constant.SO IT will producw error;
+
+
+     var x=20++;
+     let y=21++;
+
+      both will produce error this cant be writen like this as 20 is constant in yhis
+
+
+
+
+
+                                                folder 01-02-2023
+
+
+
+
+
+    Assignment operator
+    "=";
+        var a;
+        a=20;    in this 20 is assigned to a;
+
+        '+='    a+=20         a=a+20
+        '-='    a-=20         a=a-20
+        '*='    a*=20         a=a*20  
+        '/='    a/=20         a=a/20  
+        '**='   a**=20        a=a**20  
+        '%='    a%=20         a=a%20
+
+
+
+
+        x=3 y=5
+    1.  x+=y
+        x=x+y
+        x=3+5
+        x=8
+    
+    2.  x**=y
+        x=x**y
+        x=3**5
+        x=243
+    
+    3.  x-=y+20
+        x=x-(y+20)
+        x=-22
+    
+    4.  x=y++       in post increment firstly value assignd to x then it will increment
+        x=5
+    
+    5.  x=++y       in pre increment first value will be increment then it will assigned to the x
+        x=6
+        
+
+    6.  x%=(y+3)
+        x=x%8
+        x=3%8
+        x=3
+
+
+
+Pre increment= a=++b;
+Post increment= a=b++
+pre Decrement= x=--y
+Post decrement= x=y--
+
+
+var a=30,b=3;
+c=a++ + b++;
+console.log(c);
+console.log(a);
+console.log(b);
+
+
+        Comparision operator
+
+a==b  equality check
+        it will produce true if value of a is equal to value of b otherwise it will produce false
+
+a===b strict equlity check
+        it will prodiuce true if value of a and b as well as type of a and b both are same then it is strict equality check
+<   less than
+>   greater than
+<=  less than equal to
+>=  grerater than equal to
+!= not equal to
+!== not equal to value as well as type
+
+2=="2"
+true
+2==="2"
+false
+
+
+
+    ternary operator
+
+    condition?exp1:exp2
+        if the conditionis true then exp1 is the output else conditionis falsethen output will exp2
+
+    var a=true?5:3
+
+    output 5
+
+    var a=30<=30?5:6
+    output 5
+
+
+
+        concatenation operator
+        "+" symbol used for concatenation
+
+        it is used only with at least one string
+        if it is used with number then it should be done like addition
+
+        example-   2+4+65=71
+                    2+"5"+65= 2565
+                    2+"alpha"+85=2alpha85
+
+
+
+
+                   refer to folder 02-0-2023
+        
+Logical operator
+
+    &&  (Logical and)
+
+        a           b           output
+        true        true        true
+        true        false       false
+        false       true        false
+        false       false       false       
+
+            in logical and (&&) if any condition is false then output produced by this result in false
+
+
+
+            var a=3,b=6;
+            d=(a++>=3 && b-- <=6)
+                true        true
+
+                a=4
+                b=5
+                d= true
+
+
+    ||  (logical or)
+                        a           b           output
+        				true        true        true
+   				        true        false       true
+       				    false       true        true
+        				false       false       false       
+	
+	  in logical or (||) if any condition is true then output produced by this result in true
+
+
+
+
+
+    !   (logical not)
+
+        !true  = false
+        !false = true
+
+
+        var a= true
+        var b=!a
+
+        console.log(b);     false
+
+inlogical and &&
+
+        var a= 3,b=6
+        var d= a++ >= b-- && b++ <= a--
+                3 >= 6    && 5<=4
+                  false  &&          (here first condition is false so the second condition will not evaluated because in and operator
+                                                    if one conditionis false the output is false)
+
+               so value are false
+                a=4
+                b=5   because nextcondition will not run
+
+
+    In logical or  (||)
+
+var a= 6,b=3
+        var d= a++ >= b-- || b++ >= a--
+                6 >= 3    || 2>=7
+  true      ||                    (here first condition is true so the second condition will not evaluated because in or operator if one conditionis true the output is true)
+
+               so value are true
+                a=7
+                b=2   because next condition will not run
+
+Relational operator         LOGICAL operator
+    <=                          &&
+    >=                          ||  
+    ==                           !
+
+
+
+
+
+
+    b=6
+    a=2
+    false
+
+
+    dhanshu

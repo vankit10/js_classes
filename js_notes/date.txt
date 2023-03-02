@@ -1,0 +1,28 @@
+folder 08-02-2023
+Date()
+Date("2023-02-02")
+Date(Year,month)
+Date(year,month,day)
+Date(year,month,day,hour)
+Date(year,month,day,hour,minute)
+Date(y,m,d,h,min,sec)
+Date(y,m,d,h,min,sec,millisec)
+Date(millisec)
+
+
+var date1=new Date("2023-02-08");
+date1 = string(date1);
+console.log(date1)
+
+
+
+method on date
+getHours();
+getMinutes();
+getSeconds();
+getMilliSeconds(;
+getYear();
+getMonth();
+getDay();
+getDate();
+getTime();

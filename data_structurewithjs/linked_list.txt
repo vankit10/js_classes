@@ -1,0 +1,72 @@
+linear data structure occupy memory in sequention manner.
+ex-array,set,queue,stack
+
+non linear data structure occupy memory in sequentionial manner 
+whereas in non sequentionial manner also
+
+1000	1004	1008	1012	1014	1018
+
+
+Inserting linked list
+1000 {Value of this block}	nextAddress of 1008	
+1008 {Value of this block}	nextAddress of 1014	
+1014 {Value of this block}	nextAddress of 1018
+
+
+
+class BOx{
+    constructor(value,next){
+        this.value=value
+        this.next=nextaddress
+    }
+}
+var obj=new BOx(10,2000)
+console.log(obj.value)
+console.log(obj.next)
+
+
+
+
+Single Linked List
+	
+	
+1000    Value of this block	            nextAddress of next block 1004	
+1004    value	                        Nextaddress 1008	
+1008    Value	                        Address to null
+
+It should start with start variable and end with NULL
+
+Creating  NOde
+class Node{
+    constructor(value,next){
+        this.value=value
+        this.next=null
+    }
+}
+var obj=new Node(10,2000)
+console.log(obj.value)
+console.log(obj.next)
+
+
+
+
+class Node{
+    constructor(value,next){
+        this.value=value
+        this.next=null
+    }
+}
+var start = new Node(1);
+for(var i=0;i<=5;i++){
+    var temp_node=new Node(i);
+    var temp=start
+    while(temp.next != null){
+        temp = temp.next
+    }
+    temp.next = temp_node
+}
+var temp=start;
+while(temp.next != null){
+    console.log(temp.value)
+    temp=temp.next
+}

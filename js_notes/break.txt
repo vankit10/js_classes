@@ -1,0 +1,29 @@
+refer to folder 13-02-2023
+for(var i=0;i<=100;i++){
+    if(i==51){
+        break                   // break statement used to break the loop
+        }
+        else{
+            process.stdout.write(i+"")
+        }
+    }
+}
+
+
+
+continue - it is used to skip an iteration
+
+for(var i=0;i<=100;i++){
+    if(i==51)break;
+    if(i==21)continue;
+    console.log(i);
+}
+
+for(var i=2;i<=100;i++)
+{
+    i%2==0;
+    if(i==6 || i==18 || i=52 )
+    continue;
+}
+process.stdout.write(" "+i)
+

@@ -1,0 +1,8 @@
+console.log(" Hello World")
+console.log(typeof thank)
+console.log(typeof 1)
+console.log(typeof 1.3)
+console.log(typeof -1)
+console.log(typeof false)
+console.log(typeof true)
+console.log(typeof BigInt("456465456465445465456465456464646456"))

@@ -1,0 +1,63 @@
+& - bitwise AND operator
+| - bitwise OR operator
+
+
+bit1        bit2        &(bitwise and)
+
+1           1           1
+1           0           0
+0           1           0
+0           0           0
+
+
+
+bit1        bit2        |(bitwise or)
+
+1           1           1
+1           0           1
+0           1           1
+0           0           0
+
+prob 
+2&3
+2-->10
+3-->11
+            1   0
+         &  1   1
+            1   0
+
+2 & 8- 0000
+13&6 - 0100 --4
+18&15-- 00010--2
+3|5 -- 111-  7
+3|7 -- 111== 7
+
+bitwise XOR (^) -- it will produce 1 if only one bit is 1 otherwise it will poduce 0
+
+    0       0           0
+    1       0           1
+    0       1           1
+    1       1           0
+
+
+
+
+bitwise NOT (~)-- > revert the bit
+
+    ~ 0==1
+    ~ 1==0
+
+
+    ~8=7
+    8^6=14
+    ~(8^5)= 2
+    ~8^~6 = 6
+
+    Right shift(>>)
+    ex- 18>>2
+    it will remove 2 iteration from right and insert 0 to the left syd of bianry no
+    left shift(<<)
+
+    ex--
+    26<<3
+     it will  insert 3 bits to the right shift

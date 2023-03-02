@@ -1,0 +1,21 @@
+        refer too folder 09-02-2023
+Methods on Array---->
+    arr=[1,8,9,5]
+
+    arr.length()----> return the number of elements in Array
+    arr.push(18)---> used to insert a new element in end of the array
+    arr=[1,8,9,5,18]
+
+    arr.pop()---->usedto remove the element from the last in array
+    arr.shift()---> remove an element from the beginning af an array
+    arr.unshift()----> add an element in beginning of an array
+    delete.arr[1]--->it will replace index1 vlue with empty or undefined val
+
+    arr.splice(start,count)---> from index start remove count elemenmt
+    arr.splice(0,2);---->fom index 0 number of 2 element will removed
+    arr.splice(0,2,"string"/number)----> from index o number of two elements will removed and string or number will insert
+
+    arr.slice(start,end)---> it will give the value from the array from start index to end array.. it will not chnge anything in the array.
+    arr.indexOf(6)---> itwill give the indext of the value in array.if found in array otherwise it will give -1 tht means value is not found in arrAY.
+
+Methods on number ---->

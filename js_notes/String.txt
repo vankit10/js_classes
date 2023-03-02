@@ -1,0 +1,87 @@
+                                refer to folder 02-02-2023
+string
+
+
+INdexing
+
+var a = "ANkit"
+a[0]=A
+a[1]=N
+a[2]=k
+a[3]=i
+a[4]=t
+
+negative indexing are not allowed in indexing
+like a[-3] this was not allowed
+method on string:
+
+var s = "name";
+
+i.  length()
+    syntax- var.length;
+
+    example:- s.length
+                4
+
+        "name".length
+            4
+
+ii. slice
+return the substring and ending point was not included.
+
+
+            syntax:- var.slice(start,end)
+            ex-: s.slice(1,3)
+                    'am'
+
+                "name".slice(1,3)
+                    'am'
+                "animesh".slice(2)
+                    'imesh'
+negative slice
+
+negative slice also allowed like s.slice(1,-1) result in 'am'
+example
+ s.slice(-3)= 'ame'
+ "animesh.slice(-6)='nimesh'
+
+
+substring
+
+    var s="sudhanshu";
+    console.log(s.substring(2,5))=dha
+console.log(s.substring(2))= dhanshu
+
+
+negative substring not allowed ever
+
+
+substr
+    s.substr(start,length) here start is the index of variable and end refer to lenth of string
+    var s="sudhanshu"
+    console.log(s.substr(2,6));= dhansh
+
+
+
+
+
+Replace :-
+
+        it will replace only first occurance
+        s.replace('u','a');
+
+replaceAll
+        it will replace all the occurance
+        s.replaceAll('u','a')
+    
+toUpperCase- convert all in uppercase letter
+toLowerCase- convert all in lower case
+charAt- give the character of string. negative indexing not allowed
+charCodeAt- gives the ascii value of the indexing value
+concat()
+trim()
+trimStart()
+trimEnd()
+split()
+padStart()
+padEnd()

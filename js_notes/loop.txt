@@ -1,0 +1,199 @@
+Loops - 
+
+for(initialisation ; condition ; operation)
+            1           2           3
+{
+
+    console.log("");
+        4
+}
+
+
+working of for loop
+1----->2---->4---->3---->
+                        2---->4--->3---->
+                                            2--->4
+
+var j=0
+for(  ;j<=10;)
+{
+    console.log("hi");
+    j++
+}in this initialisation and operation can be done outside but not the condition of the for loop
+
+
+Write afor loop to print no1 to 10
+
+for(var num=1;num<=10;num++)
+{
+    console.log(num);
+}
+
+                Printing the array
+arr=[2,3,8,6,9,10]
+
+for(var ar=0;ar<arr.length;ar++)
+{
+    console.log(arr[ar]);
+}
+
+                sum of array
+arr=[3,8,8,9,6,5]
+var sum=0;
+for(var i=0;i<arr.length;i++)
+{
+    sum=sum+arr[i];
+    
+}
+console.log(sum);
+
+
+
+1.
+                reversing the array
+for(var i=arr.length-1;i>=0;i--)
+{
+    console.log(arr[i]);
+}
+
+While(condition){
+    job...
+    ....
+    ...
+}
+Job will keep on executing until the condition is true
+
+var i=0
+while(i<=10)
+{
+    console.log("hi)
+} this result in infinite loop
+
+var i=0
+while(i<=10){
+    console.log(i)
+    i=i+2
+} this run upto 10
+
+
+print odd nos.
+
+
+/*var i=1;
+while(i<=100){
+    console.log(i);
+    i+=2;
+}*/
+
+
+
+//print multiplication of 5 upto 100
+
+var a=5,b=0;
+var val=a*b;
+while(val<=100)
+{
+    console.log(val)
+    b+=1;
+    val=a*b;
+}
+
+for(var i=0;5*i<=100;i++)
+{
+    console.log(5*i);
+}
+
+
+
+Do loop
+
+do {
+    job
+}
+while(condition)
+job will be performed frst as long as condition is true.job will keep executuing
+
+var i=10
+do{
+    console.log("hi");
+    i-=1;
+}while(i>=5)
+do-while loop is guaranteed to be executed at least one time.
+    
+
+
+    referto folder 08-02-2023
+for-in loop
+const person={
+    name:"sudhanshu",
+    age:24,
+    height: 5ft 8 inch
+}
+for (var key in person){
+    console.log(key);     {for in loop will return the key of  object}
+    console.log(person[key]);
+}
+
+var arr=[2,3,4,5,6,4,5,9,5,6,];
+for(var key in arr){
+    console.log(key);
+    console.log(key,arr[key]);  { for in loop will return the index of an array}
+}
+
+
+const X={a:20,b:30,c:40}
+const Y={a1:3,b1:6,c1:9}
+var s1=(X["a"]+Y["a1"])-(X["b"]+Y["b1"])+(X["c"]+Y["c1"])
+    console.log(s1);
+
+var arr=[3,8,-1,8,9],sum=0
+for (var key in arr){
+	sum=sum+arr[key];
+
+}
+	console.log(sum);
+
+
+var arr=['s','u','d','h','a'],str="";
+for(var key in arr){
+	str+=arr[key];
+}
+console.log(str);
+
+                referto folder 08-02-2023
+
+for-of loop
+var arr=[2,3,2,5,4,6,6]
+for(var v of arr){
+    console.log(v);
+}
+in for-of loop it gives the value of the index of arrow.
+
+whereas in for-in loop it give the index
+
+for-of loop
+var arr=[2,3,2,5,4,6,6]
+for(var v of arr){
+    console.log(v);
+}
+in for-of loop it gives the value of the index of arrow.
+
+whereas in for-in loop it give the index
+
+
+for-each loop
+
+var arr= [5,6,5,8,6,4,,4]
+arr.forEach(myFunction);       //myFunctionwill be 7 times,since it has 7 elements
+                                function run for each element 
+function myFunction(key,value,index){
+    console.log(key,vlue,index);
+
+}
+
+function myFunction(value,index,arr){
+    every time will reeive 3 arguments
+    1st--> value of the ndex
+    2nd--> index of the value in arraay
+    3rd--> array itself
+}

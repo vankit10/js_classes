@@ -1,0 +1,89 @@
+refer to folder 06-02-2023
+Array - Linear data structure used to hold multiple value of any type.
+this occupies continuous memory allocation
+
+var arr[]=
+arr=[1,2,3,4,5,6,7,8]
+
+
+value inserting by indexing
+arr[8]=15;
+arr=[1,2,3,4,5,6,7,8,15]
+arr[2]=16    {  here the value is override on the index no 2 }
+arr=[1,2,16,4,5,6,7,8,15]
+
+
+Push method-
+push method insert new values next to the last indexi of Array
+ex- arr=[1,2,3,4]
+arr.Push[15];
+arr=[1,2,3,4,15]
+arr.Push[16,17,18]
+arr=[1,2,3,4,15,16,17,18]
+
+push method also used to store multiple values at a time.
+
+
+
+Linear data structure- container to hold item
+        in array eveery cell present at unique memory location
+             1024 1028 1032 1036 1040   - this is mwmory location consist of 4 bytes
+      arr=[   1,  2,  3,    4,  5]
+
+
+
+                            twodimensional array
+
+      arr=[[2,3,4],[7,8,9]]
+      arr[0]=[2,3,4]
+      arr[1]=[7,8,9]
+                                                arr=            0   1   2
+      arr[0][2]=4                                           0   2   3   4
+                                                            1   7   8   9
+    
+      sort= it sort the array in ascending order but first it convert all the element in string.
+             it sort only the first digit not the whole number like 2,15,32,12= 12,15,2,32  
+             it just compare the first character of the number
+
+      length= it shows the length of array
+
+
+      arr=              ['a','c','f','b']
+      arr[1]='g'==      ['a','g','f','b']
+      arr.sort();==     ['a','b','f','g']
+      arr[2]='k';       ['a','b','k','g']
+      arr=              ['a','b','k','g']
+
+
+      arr=[2,8,6,9,11,16,32]
+      arr.sort()= [11,16,2,32,6,8,9]
+      arr[1]=7      11,7,2,32,6,8,9
+      arr.sort=   11,2,32,6,7,8,9
+      arr[3]=5      11,2,32,5,7,8,9
+
+var arr=[1,2,3]
+var arr2=arr
+arr2.push(9);
+console.log(arr)
+arr=[1,2,3,9];  in this both the array are pointing to the same element of array.thats why both array have same block and same data
+
+
+              printing 2 d array (folder 07-02-2023)
+var arr=[[2,3,4,8],[6,8,9,5],[3,2,1,2]];
+for(var i=0;i<arr.length;i++){
+       for(var j=0;j<arr[i].length;j++){
+        console.log(arr[i][j]);
+    }
+}
+
+var arr=[[1,7,6],[8,8,9],[3,2,5]]
+var sum=0;
+for(var i=0;i<arr.length;i++){
+       for(var j=0;j<arr[i].length;j++)
+       {
+        console.log(arr[j][i]);
+        sum=sum+arr[j][i];
+       }
+       
+}
+console.log(sum);

@@ -1,0 +1,3 @@
+math.floor(math.random()*(max-min)+min)
+
+math.random()-- it will generate a random value in b/w maximum and minimum value

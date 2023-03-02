@@ -1,0 +1,56 @@
+refer to folder 17-02-2023
+
+class - 
+it is nothing but the blueprint of an entity
+class will contain all field of that particulaar entity
+
+class Person{ 
+    var name;
+    var age;
+    var gender;
+    var email;
+}
+Object-
+object is nothing but it is an instance of class
+there are different ways to create object of a class
+
+
+
+class vehicel{
+    constructor(numberoftyre,numberofMirror,isEngineavailable,isBreakavailable){
+        this.numberoftyre=numberoftyre;
+        this.numberofMirror=numberofMirror;
+        this.isEngineavailable=isEngineavailable;
+        this.isBreakavailable=isBreakavailable;
+
+    }
+    PrintDetails(){
+        console.log("number of tyres is " +this.numberoftyre,this.numberofMirror,this.isEngineavailable,this.isBreakavailable)
+
+   }
+
+}
+var car=new vehicel(41,4,true,true)
+car.PrintDetails();
+
+constructor= it will executed evry time when we create an object of the  class
+
+class test {
+    constructor(){
+        this.a=10
+        this.b=20
+        this.c=30
+
+    }
+    dojob(){
+        console.log("object has been create")
+    }
+}
+
+var t= new test()
+console.log(t.a,t.b,t.c)
+t.dojob();
+
+
+
+Note- function inside the class called as method.

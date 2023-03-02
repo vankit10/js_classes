@@ -1,0 +1,50 @@
+In hoisting we can acess variable before initialization or declaring it
+
+
+Ex
+Console.log(a)
+Var a=10  this give undefined
+
+Console.log(b)
+Let b=10 this give cannot access b before initialization
+
+Console.log(d)
+Const d=10 this give cannot access b before initialization
+
+refer to practise(23)
+arr=[2,3,1,4,5,8,7]
+for(var x in arr){
+    console.log(x)-----> in for-in loop in array give the index
+}
+for(var x of arr){
+    console.log(x)-----> in for-in loop in array give the value
+}
+
+
+
+
+var amap=new Map()
+a.set("a",15)
+a.set("b",25)
+for(var x in amap){
+    console.log(x)----> in case of map it will notgive the index
+}
+for(var x of amap){
+    console.log("for of loop on map : x[0] is showing key "+x[0]+","+ " x[1] is showing value "+x[1])
+
+}
+
+in case of map it will give the key,value
+
+
+
+var nset=new Set()
+nset.add(10)
+nset.add(20)
+for(var x in nset){
+    console.log(x)    // not working in set
+}
+function dojob(arg1,arg2){
+    console.log(arg1,arg2)
+}
+nset.forEach(dojob);

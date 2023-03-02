@@ -1,0 +1,9 @@
+Math.floor
+integer value just lesser than this number
+
+ex- Math.floor(5.6)=5
+
+
+Math.ceil
+integer value just greater than number
+ex-  Math.floor(3.6)=4

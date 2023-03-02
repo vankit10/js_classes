@@ -1,0 +1,7 @@
+queue is a data structure that works on First in and First out perinciple
+same method as stack
+
+push- used to insert element in the queue
+pop- pop used to extract element by shift and unshift method
+peek- used only to show the element of the index this does not change in queue
+size give the length of queue

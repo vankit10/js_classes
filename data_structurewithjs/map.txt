@@ -1,0 +1,16 @@
+refer to folder 14-02-2023
+Map-->
+
+  i.  store key value pair
+            x:20,
+            y:3
+    
+`ii.  map know the order of insertion of keys.
+
+var x= new Map()
+x.Set("name","sudhanshu")
+x.delete(a) it will delete the key 'a'
+x.clear()--> it will remove all the key value from map
+size-- it will give the size of map
+has()--> return true if value is present in map
+get()--> return the value of the given key

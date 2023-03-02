@@ -1,0 +1,93 @@
+refer to folder 09-02-2023
+Functions----->
+        Function keyword
+        Arrow
+        Anonymous
+        IIFE
+            immediately
+            invoked
+            Function
+            expression
+
+function dojob(){
+    console.log("alpha vernma)
+}
+dojob();   // calling function
+dojobis a function that will print alpha verma on console.
+
+waf to print all nos from 0 to 100
+
+function odd()
+{
+    var num;
+    for(var num=0;num%2==1;num++){
+        console.log("odd nos are:"+num)
+    }
+}
+odd();
+
+Arrow Funtion
+
+( )=> {
+}
+
+	Const dojob=func_name()=>{
+		Declaring the function
+ }
+Ex=  
+Var s=add(a,b)=>
+{
+Console.log(a+b)
+}
+Arrow function is that we can say that function without the function keyword.
+
+
+Anonymous keyword
+
+When we don’t give any name to arrow function it is said to be anonymous function. In this we don’t gove any function name
+Ex
+()=>{
+Console.log(a+b
+}
+
+
+function addteonos(a,b)   argument
+{
+    console.log(a+b)
+}
+
+addteonos(100,8);   here it is the perimeter
+
+
+
+function dojobs(){
+    return("alpjpa")
+}
+var name_= dojobs() /// calling function by  variable
+console.log(name_)
+
+function addnos(...args){    // here 3 dots represent array.
+    console.log(args)
+}
+addnos()
+addnos(2)
+addnos(2,3)
+addnos(3,1,5,1)
+
+"..." ---->>> spread operator
+var-agr function
+
+ function dojob(a,b,...args)   array always allowed in last
+ {
+    dojob(...args,a,b)   this both line cannot be allowed in js
+    dojob(a,args...,b)
+ }
+
+
+var-agr function
+
+ var arr=[3,8,9,8,9]
+ var arr2=[...arr]   copy arr in arr2
+ 
+
+

@@ -1,0 +1,40 @@
+folder stack(20
+
+
+it is a data structure in which it work with filo (first in last out) or lifo(last in first out) system
+push - insert value to the stack
+pop - extract a value from stack
+peek - tell me the value that is on top.t will not remove any element
+size - tell me the size of stack
+
+var stack=[]
+
+function push(val){
+    stack.push(val)
+}
+
+function print(){
+    for(var i=0;i<stack.length;i++){
+        process.stdout.write(" "+stack[i])
+    }
+}
+function size(){
+    console.log(" "+stack.length)
+}
+function peek(){
+    if(stack.length==0){
+        console.log("stakck empty")
+    }
+    else{
+        console.log(stack[stack.length-1])
+    }
+}
+push(20);
+push(40);
+push(60);
+push(80);
+push(45);
+print();
+size();
+console.log(" "+stack.pop());
+peek();
