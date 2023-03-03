@@ -70,3 +70,12 @@ while(temp.next != null){
     console.log(temp.value)
     temp=temp.next
 }
+
+
+
+
+
+Double Linked List
+
+
+    
