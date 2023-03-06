@@ -1,0 +1,23 @@
+it is a non linear data structure
+searching very fast
+it has parent node ,children node
+
+a----->b
+a----->c
+ here  a is the parent node b and c are children node
+leaf nodes-  a node having no children
+
+inorder traversal-->left node right
+
+Post order traversal --> left right node
+
+pre order traversal -->node left right 
+
+pre-2,8,7,6,13,9,6,15,8
+in- 6,7,8,13,2,6,9,8,15
+post-6,7,13,8,6,8,15,9,2
+
+
+
+balanced and unbalanced tree
+
