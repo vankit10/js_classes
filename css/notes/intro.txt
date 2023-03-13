@@ -1,0 +1,13 @@
+css rile
+3 ways to write css
+. tag name
+. class name
+. id name
+
+
+
+
+
+style tag
+inline css
+external css

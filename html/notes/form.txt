@@ -1,0 +1,20 @@
+<html>
+		<head>
+            <title>demo</title>
+		</head>
+		<body>
+          <form>
+            <input type="name" placeholder="enter your name">
+            <input type="username" placeholder="choose username">
+            <input type="password" placeholder="set a password">   
+            <button type="submit">Submit</button>
+            <button type="Reset">Reset</button> 
+        </form>
+		</body>
+		</html>
+
+
+
+
+ <form action="Thankyou.html">
+ action is used to got to next page when you click the submit buttom

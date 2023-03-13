@@ -1,0 +1,49 @@
+HTML- 
+	Hyper text markup language
+	It is used to add content on our web page
+    produce contents like heading, paragraph, image , audio, video , table , list
+    programming language use to do some logic but markup language can not.
+    Html doesn’t give any error.error free language and not capable of performing an logical task
+
+Tags
+
+will help us produce different type of contentson web pages
+<tagname>   </tagname>
+<tagname/>--->  some of the tags are self closing
+
+List in Html
+
+unordered list(UL list)
+
+<ul>  <li>   ...... </li>  </ul>
+
+<li> ----> list item
+
+
+ordered List(OL)
+
+<ol>  <li>   ...... </li>  </ol>
+
+Description list(DL)
+dt---> define term
+dd--> describe the term
+dl-->Description list
+
+
+
+
+<br> break the line 
+<hr> crreate horizontal line
+
+<button> tagname
+    <button>button name</button>
+
+
+<input> tagname
+    <input type="text" placeholder="please enter your name">
+            
+            </input>
+
+    placeholder--> give the nme to text field
+    <input type="text" value="verma ji">
+    value gives the default value to th field
