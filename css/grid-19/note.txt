@@ -1,0 +1,5 @@
+1- count number of row and column in your layout
+2- produce html structure
+3- give power of grid to the parent container
+4- specify no of row and column
+5- stretch children with grid row and grid column property

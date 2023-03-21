@@ -11,3 +11,14 @@ css rile
 style tag
 inline css
 external css
+
+vw - width of our screeen
+vh - height of our screen
+
+absolute
+static
+fixed
+relative
+sticky
+
+if parent positionvalue is static then absolute will not work

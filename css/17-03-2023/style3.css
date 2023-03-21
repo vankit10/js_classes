@@ -1,0 +1,36 @@
+.home{
+    margin-left: 70px;
+}
+.about{
+    margin-left: 100px;
+}
+.contact{
+    margin-left: 100px;
+}
+.div1{
+    border:solid red 2px;
+    margin-left: 70px;
+    width:50px;
+    position: fixed;
+    
+}
+.div2{
+    border:solid red 2px;
+    margin-left: 100px;
+    width:50px;
+    position: fixed;
+    left:150px
+}
+.div3{
+    border:solid red 2px;
+    margin-left: 100px;
+    width:50px;
+    position: fixed;
+    left:300px
+}
+.div{
+    border : solid red 1px;
+    margin-left: 40px;
+    height:100px;
+    width:450px;
+}
