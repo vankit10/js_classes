@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.main-ctn{
+    height:100vh;
+    width:100vw;
+    display: flex;
+    flex-direction: row;
+
+}
+.div1{
+    width:50vw;
+    height: 100vh;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    
+}
+.ld1{
+    width:100vw;
+    height:50vh;
+    display: flex;
+    background-color: darkgoldenrod;
+}
+.ld2{
+    width:100vw;
+    height:50vh;
+    display: flex;
+    background-color: rgb(11, 184, 173);
+
+}
+.div2{
+    width:50vw;
+    height: 100vh;
+    background-color: rgb(92, 90, 94);
+    display: flex;
+    flex-direction: column;
+    
+}
+.rdiv1{
+    width:100vw;
+    height: 33vh;
+    background-color: rgb(72, 18, 126);
+    display: flex;
+    flex-direction: column;
+
+}
+.rdiv2{
+    width:100vw;
+    height: 33vh;
+    background-color: rgb(9, 155, 65);
+    display: flex;
+    flex-direction: column;
+
+}
+.rdiv3{
+    width:100vw;
+    height: 34vh;
+    background-color: rgb(190, 190, 20);
+    display: flex;
+    flex-direction: column;
+
+}
