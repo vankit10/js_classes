@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    height:100vh;
+    width:100vw;
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.ldiv{
+    width:50vw;
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 150px;
+    gap:10px;
+}
+.head{
+    font-size: 50px;
+    font-family: sans-serif;
+    color: #1877f2;
+}
+.rdiv{
+    width:50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding:100px;
+
+}
+.para{
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #1e1e1e;
+}
+.card{
+    height:38vh;
+    width:40vh;
+    box-shadow: rgba(50,50,93,0.25) 0px 50px 100px -20px,rgba(0,0,0,0.3) 0px 30px 60px -30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+
+    
+}
+.username,.password{
+    width:80%;
+    height:38px;
+    border-radius:10px;
+    border:none;
+    padding:10px;
+}
+.username:focus,.password:focus{
+    outline: 1px solid firebrick;
+}
+.login{
+    width: 80%;
+    height: 38px;
+    background-color: blue;
+    color: white;
+    border: none;
+    margin-top: 10px;
+}
+.fp{
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.line{
+    width: 80%;
+    height: 1px;
+    background-color: black;
+}
+.signup{
+    width: 40%;
+    height: 38px;
+    background-color: green;
+    color: white;
+    border: none;
+}
+.para2{
+    color: #1e1e1e;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.para2 span{
+    color: #1877f2;
+    cursor: pointer;
+}
+
+@media only screen and (min-width:400px) and (max-width:800px){
+    .main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .ldiv{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        width: 100vw;
+        height: 50vh;
+    }
+    .rdiv{
+        width: 100vw;
+        height: 50vh;
+        padding: 0;
+        margin-top: -30px;
+    }
+    .card{
+        width: 70%;
+    }
+
+}

@@ -1,0 +1,3 @@
+defer ---
+
+        it is used for that javscript will be loaded after body tag content on web page completely

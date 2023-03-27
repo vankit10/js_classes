@@ -12,6 +12,9 @@ style tag
 inline css
 external css
 
+inline css have the most priority
+inline > style > external
+
 vw - width of our screeen
 vh - height of our screen
 
