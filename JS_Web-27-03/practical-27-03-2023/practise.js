@@ -1,37 +1,44 @@
-var number=document.getElementsByClassName('number')[0]
-var no=number.innerText
+var number=document.getElementsByClassName('Number')[0]
+var numberText=number.innerText
 var increase=document.getElementsByClassName('increase')[0]
 var decrease=document.getElementsByClassName('decrease')[0]
+var warningBox = document.getElementsByClassName("warning_box")[0]
+var closeBtn = document.getElementsByClassName("close_btn")[0]
 
 console.log(number);
-console.log(no)
+console.log(numberText)
 console.log(increase)
+console.log(warningBox)
 
 
 function increaseNumber(){
-    if(no<10){
-    no=Number(no)
-    no=no+1;
-    number.innerText=no
+    numberText = Number(numberText)
+    if(numberText === 10){
+        warningBox.classList.remove("hidden")
+        return
     }
-    else{
-        alert("limit exceed");
-    }
+    numberText = numberText+1
+    number.innerText = numberText
+
 }
+increase.addEventListener('click',increaseNumber)
 
 function decreaseNumber(){
-    if(no>-10){
-
-    
-    no=Number(no)
-    no=no-1;
-    number.innerText=no
+    numberText = Number(numberText)
+    if(numberText === -10){
+        warningBox.classList.remove("hidden")
+        return
     }
-    else{
-        alert("Limit Exceeded");
-    }
+    numberText = numberText-1
+    number.innerText = numberText
 }
 
 
-increase.addEventListener('click',increaseNumber)
 decrease.addEventListener('click',decreaseNumber)
+
+
+function closeWarningBoxHandler(){
+    warningBox.classList.add("hidden")
+}
+
+closeBtn.addEventListener("click",closeWarningBoxHandler)
